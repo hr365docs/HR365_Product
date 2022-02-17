@@ -4,7 +4,7 @@ baseURL = "https://hr365docs.github.io/HR365_Product/"
 # theme
 theme = "dot-hugo"
 # site title
-title = "Dot"
+title = "HR365"
 # disable language
 disableLanguages = []
 # google analytics
@@ -113,19 +113,25 @@ hasChildren = true
 
   [[Languages.en.menu.main]]
   parent = "docs"
-  name = "Installation"
+  name = "Employee Directory"
   url = "installation/"
   weight = 1
 
   [[Languages.en.menu.main]]
   parent = "docs"
-  name = "Billing and Pricing"
+  name = "Asset Mangement"
   url = "billing-pricing/"
   weight = 2
 
   [[Languages.en.menu.main]]
   parent = "docs"
-  name = "Features"
+  name = "Time-off-manager"
+  url = "features/"
+  weight = 3
+
+  [[Languages.en.menu.main]]
+  parent = "docs"
+  name = "Time sheet"
   url = "features/"
   weight = 3
 
