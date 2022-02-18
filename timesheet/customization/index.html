@@ -1,10 +1,10 @@
 <!doctype html><html lang=en-us>
 <head>
 <meta charset=utf-8>
-<title>Configuration</title>
+<title>Customization</title>
 <meta name=viewport content="width=device-width,initial-scale=1">
 <meta name=generator content="Hugo 0.92.2">
-<meta name=description content="Configuration - HR365 ">
+<meta name=description content="Customization - HR365 ">
 <link rel=stylesheet href=https://hr365docs.github.io/HR365_Product/plugins/bootstrap/bootstrap.min.css>
 <link rel=stylesheet href=https://hr365docs.github.io/HR365_Product/plugins/themify-icons/themify-icons.css>
 <link rel=icon href=https://hr365docs.github.io/HR365_Product/images/favicon.png type=image/x-icon>
@@ -23,14 +23,14 @@
 <meta property="og:image:width" content="2881">
 <meta property="og:image:height" content="681">
 <meta property="og:image:type" content="image/png">
-<meta name=twitter:title content="Configuration">
+<meta name=twitter:title content="Customization">
 <meta name=twitter:description content="This is meta description">
-<meta property="og:title" content="Configuration">
+<meta property="og:title" content="Customization">
 <meta property="og:description" content="This is meta description">
 <meta property="og:type" content="website">
-<meta property="og:url" content="https://hr365docs.github.io/HR365_Product/installation/configuration/">
+<meta property="og:url" content="https://hr365docs.github.io/HR365_Product/timesheet/customization/">
 <meta name=twitter:card content="summary">
-<meta name=twitter:title content="Configuration">
+<meta name=twitter:title content="Customization">
 <meta name=twitter:description content="This is meta description">
 </head>
 <body>
@@ -78,34 +78,34 @@
 <div class=sidebar>
 <a class=back-btn href=/HR365_Product aria-label=back></a>
 <ul class=list-styled>
-<li data-nav-id=https://hr365docs.github.io/HR365_Product/installation/ title=Timesheet class=sidelist>
-<a href=https://hr365docs.github.io/HR365_Product/installation/>
+<li data-nav-id=https://hr365docs.github.io/HR365_Product/timesheet/ title=Timesheet class=sidelist>
+<a href=https://hr365docs.github.io/HR365_Product/timesheet/>
 Timesheet
 </a>
 <ul>
-<li data-nav-id=https://hr365docs.github.io/HR365_Product/installation/requirments/ title=Requirments class=sidelist>
-<a href=https://hr365docs.github.io/HR365_Product/installation/requirments/>
+<li data-nav-id=https://hr365docs.github.io/HR365_Product/timesheet/requirments/ title=Requirments class=sidelist>
+<a href=https://hr365docs.github.io/HR365_Product/timesheet/requirments/>
 Requirments
 </a>
 </li>
-<li data-nav-id=https://hr365docs.github.io/HR365_Product/installation/install/ title=Installation class=sidelist>
-<a href=https://hr365docs.github.io/HR365_Product/installation/install/>
+<li data-nav-id=https://hr365docs.github.io/HR365_Product/timesheet/install/ title=Installation class=sidelist>
+<a href=https://hr365docs.github.io/HR365_Product/timesheet/install/>
 Installation
 </a>
 </li>
-<li data-nav-id=https://hr365docs.github.io/HR365_Product/installation/configuration/ title=Configuration class="sidelist
-active">
-<a href=https://hr365docs.github.io/HR365_Product/installation/configuration/>
+<li data-nav-id=https://hr365docs.github.io/HR365_Product/timesheet/configuration/ title=Configuration class=sidelist>
+<a href=https://hr365docs.github.io/HR365_Product/timesheet/configuration/>
 Configuration
 </a>
 </li>
-<li data-nav-id=https://hr365docs.github.io/HR365_Product/installation/customization/ title=Customization class=sidelist>
-<a href=https://hr365docs.github.io/HR365_Product/installation/customization/>
+<li data-nav-id=https://hr365docs.github.io/HR365_Product/timesheet/customization/ title=Customization class="sidelist
+active">
+<a href=https://hr365docs.github.io/HR365_Product/timesheet/customization/>
 Customization
 </a>
 </li>
-<li data-nav-id=https://hr365docs.github.io/HR365_Product/installation/elements/ title=Elements class=sidelist>
-<a href=https://hr365docs.github.io/HR365_Product/installation/elements/>
+<li data-nav-id=https://hr365docs.github.io/HR365_Product/timesheet/elements/ title=Elements class=sidelist>
+<a href=https://hr365docs.github.io/HR365_Product/timesheet/elements/>
 Elements
 </a>
 </li>
@@ -116,28 +116,38 @@ Elements
 </div>
 <div class=col-lg-9>
 <div class="p-lg-5 p-4 bg-white" id=content>
-<h2 class=mb-5 id=title>Configuration</h2>
-<div class=content><h3 id=global-site-parameters>Global site parameters</h3>
-<p>On top of <a href=https://gohugo.io/overview/configuration/>Hugo global configuration</a>, <strong>Dot</strong> lets you define the following parameters in your <code>config.toml</code> (here, values are default).</p>
-<p>Note that some of these parameters are explained in details in other sections of this documentation.</p>
+<h2 class=mb-5 id=title>Customization</h2>
+<div class=content><p><strong>Dot</strong> has been built to be as configurable as possible.</p>
+<h3 id=change-the-logo>Change the logo</h3>
+<p>In <code>config.toml</code> you will find a logo variable. you can change your logo there.</p>
+<div class="notices tip"><p>The size of the logo will adapt automatically</p></div>
+<h3 id=change-the-favicon>Change the favicon</h3>
+<p>If your favicon is a png, just drop off your image in your local <code>static/images/</code> folder and name it <code>favicon.png</code></p>
+<p>If you need to change this default behavior, create a new file in <code>layouts/partials/</code> named <code>head.html</code>. Then write something like this:</p>
+<div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-html data-lang=html>&lt;<span style=color:#f92672>link</span> <span style=color:#a6e22e>rel</span><span style=color:#f92672>=</span><span style=color:#e6db74>&#34;shortcut icon&#34;</span> <span style=color:#a6e22e>href</span><span style=color:#f92672>=</span><span style=color:#e6db74>&#34;/images/favicon.png&#34;</span> <span style=color:#a6e22e>type</span><span style=color:#f92672>=</span><span style=color:#e6db74>&#34;image/x-icon&#34;</span> /&gt;
+</code></pre></div><h3 id=change-default-colors>Change default colors</h3>
+<p><strong>Dot</strong> support change color. You can change the colors from <code>config.toml</code>. You can change the colors of the template as you want.</p>
 <div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-toml data-lang=toml>[<span style=color:#a6e22e>params</span>]
-  <span style=color:#75715e># Prefix URL to edit current page. </span>
-  <span style=color:#75715e># Useful to give opportunity to people to create merge request for your doc.</span>
-  <span style=color:#75715e># See the config.toml file from this documentation site to have an example.</span>
-  <span style=color:#75715e># Javascript and CSS cache are automatically busted when new version of site is generated. </span>
-  <span style=color:#75715e># Order sections in menu by &#34;weight&#34;</span>
-  <span style=color:#75715e># Call to action is default enabled, if you want to disable it. just change the </span>
-  <span style=color:#a6e22e>enable</span> = <span style=color:#66d9ef>false</span>
-  <span style=color:#75715e># You can change banner title and other text from the config file.</span>
+  <span style=color:#75715e># Change default color scheme with a color name or color code.</span>
+  <span style=color:#a6e22e>primary_color</span> = <span style=color:#e6db74>&#34;#02007e&#34;</span>
+  <span style=color:#a6e22e>body_color</span> = <span style=color:#e6db74>&#34;#f9f9f9&#34;</span>
+  <span style=color:#a6e22e>text_color</span> = <span style=color:#e6db74>&#34;#636363&#34;</span>
+  <span style=color:#a6e22e>text_color_dark</span> = <span style=color:#e6db74>&#34;#242738&#34;</span>
+  <span style=color:#a6e22e>white_color</span> = <span style=color:#e6db74>&#34;#ffffff&#34;</span>
+  <span style=color:#a6e22e>light_color</span> = <span style=color:#e6db74>&#34;#f8f9fa&#34;</span>
+</code></pre></div><h3 id=change-default-fonts>Change default Fonts</h3>
+<div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-toml data-lang=toml>[<span style=color:#a6e22e>params</span>]
+  <span style=color:#75715e># font family</span>
+  <span style=color:#a6e22e>font_family</span> = <span style=color:#e6db74>&#34;lato&#34;</span> <span style=color:#75715e># Choose font family from : https://fonts.google.com/</span>
 </code></pre></div></div>
 <p class="post-meta border-bottom pb-3 mb-0 mt-3">
 Updated on 05 Jan 2020
 </p>
 <nav class="pagination mt-3">
-<a class="nav nav-prev" href=https://hr365docs.github.io/HR365_Product/installation/install/ aria-label="Previous page"><i class="ti-arrow-left mr-2"></i>
-<span class="d-none d-md-block">Installation</span></a>
-<a class="nav nav-next" href=https://hr365docs.github.io/HR365_Product/installation/customization/ aria-label="Previous page">
-<span class="d-none d-md-block">Customization</span><i class="ti-arrow-right ml-2"></i></a>
+<a class="nav nav-prev" href=https://hr365docs.github.io/HR365_Product/timesheet/configuration/ aria-label="Previous page"><i class="ti-arrow-left mr-2"></i>
+<span class="d-none d-md-block">Configuration</span></a>
+<a class="nav nav-next" href=https://hr365docs.github.io/HR365_Product/timesheet/elements/ aria-label="Previous page">
+<span class="d-none d-md-block">Elements</span><i class="ti-arrow-right ml-2"></i></a>
 </nav>
 </div>
 </div>
