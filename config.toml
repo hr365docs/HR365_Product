@@ -46,22 +46,19 @@ contact_form_action = "#" # contact form works with : https://formspree.io
 [[params.social]]
 icon = "ti-facebook" # themify icon pack : https://themify.me/themify-icons
 name = "Facebook"
-link = "#"
+link = "https://www.facebook.com/hr365apps/"
 
 [[params.social]]
 icon = "ti-twitter-alt" # themify icon pack : https://themify.me/themify-icons
 name = "Twitter"
-link = "#"
+link = "https://twitter.com/HR365_HRMS"
   
-[[params.social]]
-icon = "ti-github" # themify icon pack : https://themify.me/themify-icons
-name = "Github"
-link = "#"
+
   
 [[params.social]]
 icon = "ti-linkedin" # themify icon pack : https://themify.me/themify-icons
 name = "Linkedin"
-link = "#"
+link = "https://www.linkedin.com/company/cubic-logics-india-pvt-ltd"
 
 ################################ English Language ######################
 [Languages.en]
