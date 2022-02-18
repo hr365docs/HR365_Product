@@ -92,15 +92,11 @@ name = "Home"
 url = ""
 weight = 1
 
-[[Languages.en.menu.main]]
-name = "Employee Directory"
-url = ""
-weight = 2
 
 [[Languages.en.menu.main]]
   
   name = "Employee Directory"
-  url = "installation/"
+  url = "Employee_Directory/"
   weight = 2
 
 [[Languages.en.menu.main]]
