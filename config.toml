@@ -93,44 +93,47 @@ url = ""
 weight = 1
 
 [[Languages.en.menu.main]]
-name = "Faq"
-url = "faq/"
+name = "Employee Directory"
+url = ""
 weight = 2
 
 [[Languages.en.menu.main]]
-name = "contact"
-url = "contact/"
-weight = 3
-
-# Dropdown menu
-[[Languages.en.menu.main]]
-weight = 4
-name = "docs"
-hasChildren = true
-
-  [[Languages.en.menu.main]]
   parent = "docs"
   name = "Employee Directory"
   url = "installation/"
-  weight = 1
+  weight = 2
 
-  [[Languages.en.menu.main]]
+[[Languages.en.menu.main]]
   parent = "docs"
   name = "Asset Mangement"
   url = "billing-pricing/"
-  weight = 2
-
-  [[Languages.en.menu.main]]
-  parent = "docs"
-  name = "Time-off-manager"
-  url = "features/"
   weight = 3
 
   [[Languages.en.menu.main]]
   parent = "docs"
-  name = "Time sheet"
+  name = "HR365 Helpdesk"
   url = "features/"
-  weight = 3
+  weight = 4
+
+  [[Languages.en.menu.main]]
+  parent = "docs"
+  name = "Time Off Manager"
+  url = "features/"
+  weight = 5
+
+  [[Languages.en.menu.main]]
+  parent = "docs"
+  name = "Timesheet"
+  url = "features/"
+  weight = 6
+
+  [[Languages.en.menu.main]]
+  parent = "docs"
+  name = "Employee On-boarding"
+  url = "features/"
+  weight = 7
+
+  
 
 
 ################################### Franch Language ######################
