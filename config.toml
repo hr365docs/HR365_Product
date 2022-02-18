@@ -98,11 +98,12 @@ weight = 1
   name = "Employee Directory"
   url = "Employee_Directory/"
   weight = 2
+  
 
 [[Languages.en.menu.main]]
  
   name = "Asset Mangement"
-  url = "billing-pricing/"
+  url = "Asset_Mangement/"
   weight = 3
 
   [[Languages.en.menu.main]]
