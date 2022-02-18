@@ -28,7 +28,7 @@ author = "Themefisher"
 image = "images/logo.png" # this image will be used as fallback if a page has no image of its own
 
 # customize color
-primary_color = "#5637da" "#9c3dc3 69%"
+primary_color = "#5637da" 
 body_color = "#f9f9f9"
 text_color = "#636363"
 text_color_dark = "#242738"
