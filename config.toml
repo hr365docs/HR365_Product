@@ -96,9 +96,9 @@ weight = 1
 [[Languages.en.menu.main]]
   
   name = "Employee Directory"
-  url = "Employee_Directory/"
+  url = "features/"
   weight = 2
-  
+
 
 [[Languages.en.menu.main]]
  
