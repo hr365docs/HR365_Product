@@ -1,9 +1,136 @@
----
-title: "Asset Mangement"
-date: 2022-02-18T13:21:25+05:30
-icon: "ti-package"
-description: "Asset mangement"
-type : "docs"
-weight: "2"
----
-hello
+################################# Default configuration ###################
+# provide your domain here
+baseURL = "https://hr365docs.github.io/HR365_Product/"
+# theme
+theme = "dot-hugo"
+# site title
+title = "HR365"
+# disable language
+disableLanguages = []
+# google analytics
+googleAnalytics = "" # paste your analytics ID here. (Ex: UA-123-45)
+# unsafe html
+[markup.goldmark.renderer]
+unsafe = true
+
+
+############################# Default Parameters ##########################
+[params]
+# logo is for all page
+logo = "images/logo.png"
+# logo white is for homepage logo, you can use colorful logo too...
+logo_white = ""
+# when logo is empty, it will shown your site title
+
+# OpenGraph / Twitter Card metadata
+description = "This is meta description"
+author = "Themefisher"
+image = "images/logo.png" # this image will be used as fallback if a page has no image of its own
+
+# customize color
+primary_color = "#5637da" 
+body_color = "#f9f9f9"
+text_color = "#636363"
+text_color_dark = "#242738"
+white_color = "#ffffff"
+light_color = "#f8f9fa"
+
+# font family
+font_family = "lato" # Choose font family from : https://fonts.google.com/
+
+# contact form action
+contact_form_action = "#" # contact form works with : https://formspree.io
+
+
+############################## social links ##############################
+[[params.social]]
+icon = "ti-facebook" # themify icon pack : https://themify.me/themify-icons
+name = "Facebook"
+link = "https://www.facebook.com/hr365apps/"
+
+[[params.social]]
+icon = "ti-twitter-alt" # themify icon pack : https://themify.me/themify-icons
+name = "Twitter"
+link = "https://twitter.com/HR365_HRMS"
+  
+
+  
+[[params.social]]
+icon = "ti-linkedin" # themify icon pack : https://themify.me/themify-icons
+name = "Linkedin"
+link = "https://www.linkedin.com/company/cubic-logics-india-pvt-ltd"
+
+################################ English Language ######################
+[Languages.en]
+languageName = "En"
+languageCode = "en-us"
+weight = 1
+copyright = "&copy; 2022-[HR365.](https://www.hr365.us/) [SLA.](https://www.cubiclogics.com/wp-content/uploads/2019/11/Cubic-Logics-SLA-Document.pdf) [T&C.](https://www.hr365.us/terms-and-conditions/) [EULA.](https://www.hr365.us/end-user-license-agreement-eula/) [Privacy Policy.](https://www.cubiclogics.com/cubiclogics-india-pvt-ltd-terms-of-service-and-privacy-policy/) [Cubic Logics.](https://www.cubiclogics.com/)"
+
+# banner
+[Languages.en.params.banner]
+title = "Support Center & Knowledge base"
+subtitle = "Find advice and answers from our support team fast or get in touch"
+bg_image = "images/banner.jpg"
+placeholder = "Have a question? Just ask here or enter terms"
+
+# call to action
+[Languages.en.params.cta]
+enable = true
+title = "Didn't find an answer to your question?"
+content = "Musce libero nunc, dignissim quis turpis quis, semper vehicula dolor. Suspendisse tincidunt consequat quam."
+# call to action button
+[Languages.en.params.cta.button]
+enable = true
+label = "contact us"
+link = "contact/"
+
+
+################## english navigation #################
+[[Languages.en.menu.main]]
+name = "Home"
+url = ""
+weight = 1
+
+
+[[Languages.en.menu.main]]
+  
+  name = "Employee Directory"
+  url = "features/"
+  weight = 2
+
+
+[[Languages.en.menu.main]]
+ 
+  name = "Asset Mangement"
+  url = "Asset_Mangement/"
+  weight = 3
+
+  [[Languages.en.menu.main]]
+ 
+  name = "HR365 Helpdesk"
+  url = "features/"
+  weight = 4
+
+  [[Languages.en.menu.main]]
+  
+  name = "Time Off Manager"
+  url = "features/"
+  weight = 5
+
+  [[Languages.en.menu.main]]
+  
+  name = "Timesheet"
+  url = "features/"
+  weight = 6
+
+  [[Languages.en.menu.main]]
+  
+  name = "Employee On-boarding"
+  url = "features/"
+  weight = 7
+
+  
+
+
+
