@@ -463,7 +463,7 @@
               
               <h3 class="mb-3 mt-0">Timesheet</h3>
               
-                <p class="mb-0">Timesheet</p>
+                <p class="mb-0">timesheet</p>
               
             </a>
           </div>
