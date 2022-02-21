@@ -8,6 +8,195 @@ weight: "1"
 draft: false
 ---
 
-cfsfs\hgcgyufigu
-ghfyufgukj
-jfyytfyujtu7
+<body>
+<header class="banner overlay bg-cover" data-background="./images/banner.jpg">
+<nav class="navbar navbar-expand-md navbar-dark">
+<div class="container px-2 px-md-0">
+<a class="navbar-brand px-2" href="https://hr365docs.github.io/product/">
+    <img src='logo.png' width="100%" height="auto" alt="HR365"/>
+ 
+</a>
+<button class="navbar-toggler border-0" type=button data-toggle=collapse data-target=#navigation aria-controls=navigation aria-expanded=false aria-label="Toggle navigation">
+<span class=navbar-toggler-icon></span>
+</button>
+
+<div class="collapse navbar-collapse text-center" id=navigation>
+    <ul class="navbar-nav ml-auto">
+        <li class=nav-item>
+            <a class="nav-link text-dark" href="https://hr365docs.github.io/product/">Home</a>
+            </li>
+            <li class=nav-item>
+            <a class="nav-link text-dark" href="../Employee-Directory/">Employee Directory</a>
+            </li>
+            <li class=nav-item>
+                <a class="nav-link text-dark" href="../Asset-Management/">Asset Management</a>
+             </li>
+             <li class=nav-item>
+                <a class="nav-link text-dark" href=https://hr365docs/My-project/faq>H365-Helpdesk</a>
+            </li>
+            <li class=nav-item>
+                <a class="nav-link text-dark" href=https://hr365docs/My-project/faq>Time Off Manager</a>
+            </li>
+            <li class=nav-item>
+                <a class="nav-link text-dark" href=https://hr365docs/My-project/faq>Timesheet</a>
+            </li>
+            <li class=nav-item>
+            <a class="nav-link text-dark" href=https://hr365docs/My-project/contact>Employee On-boarding</a>
+            </li>
+        </ul>
+<!-- <select class=lang-list id=select-language onchange="location=this.value"><option id=en value=https://github.com/hr365docs/My-project.git/ selected>En -->
+<!-- </option><option id=fr value=https://github.com/hr365docs/My-project.git/fr/>Fr</option></select> -->
+</div>
+</div>
+</nav>
+<div class="container section">
+    <div class=row>
+    <div class="col-lg-8 text-center mx-auto">
+    <h1 class="text-white mb-3">Support Center & Knowledge base</h1>
+    <p class="text-white mb-4">Find advice and answers from our support team fast or get in touch</p>
+    <div class=position-relative>
+    <input id=search class=form-control placeholder="Have a question? Just ask here or enter terms">
+    
+    <i class="ti-search search-icon"></i>
+<script>$(function(){var a=[{value:"Installation of applications from app catalog",label:"<p>App Catalog</p><p>App Catalog</p>",url:"https://hr365docs.github.io/product/Employee-Directory/Getting-started/installation/using-app-file/"},{value:"Installation of applications from SharePoint Store",label:"<p>SharePoint </p><p>SharePoint</p>",url:"https://hr365docs.github.io/product/Employee-Directory/Getting-started/installation/install/"}, {value:"User Guide",label:"<p>Classic, Getting Started,Logging Into SharePoint,Forgot Password </p><p>Managing User Profile Classic</p>",url:"https://hr365docs.github.io/product/Employee-Directory/Guide/User-Guide/"}, {value:"Installation Guide",label:"<p>Installation </p><p>Installation</p>",url:"https://hr365docs.github.io/product/Employee-Directory/Getting-started_/installation/"}, {value:"Admin-Guide",label:"<p>Modern </p><p>Modern</p>",url:"https://hr365docs.github.io/product/Employee-Directory/Guide_/Guide_plus/"} ];$("#search").autocomplete({source:a}).data("ui-autocomplete")._renderItem=function(b,a){return $("<li>").append("<a href="+a.url+' + " &quot;" +  >'+a.value+"</a>"+a.label).appendTo(b)}})</script>
+   
+    </div>
+    </div>
+    </div>
+    </div>
+    </header>
+<!-- <section class="section text-center pb-0">
+<div class=container>
+
+</div>
+</section> -->
+<section class=section>
+<div class=container>
+<div class="row justify-content-center">
+<div class="col-12 text-center">
+<h2 class=section-title>Employee Directory Classic   </h2>
+</div>
+
+
+<div class="col-lg-4 col-sm-6 mb-4">
+    <div  class="px-4 py-5 bg-white shadow text-center d-block match-height">
+    <i class="ti-panel icon text-primary d-block mb-4"></i>
+    <h3 class="mb-3 mt-0">Getting Started</h3>
+    <ul>
+        <li><a href="./Getting-started/installation/">Installing</a></li>
+        <li><a href="./Getting-started/Upgrading/">Upgarding</a></li>
+        <li><a href="./Getting-started/FAQ/">FAQ</a></li>
+    </ul>
+</div>
+    </div>
+
+    <div class="col-lg-4 col-sm-6 mb-4">
+        <div  class="px-4 py-5 bg-white shadow text-center d-block match-height">
+        <i class="ti-credit-card icon text-primary d-block mb-4"></i>
+        <h3 class="mb-3 mt-0">Guides</h3>
+        <ul>
+            <li><a href="./Guide/User-Guide/">User Guide</a></li>
+            <li><a href="./Guide/Admin-Guide/">Admin Guide</a></li>
+            <li><a href="./Getting-started/FAQ/">FAQ</a></li>
+
+        </ul>
+    </div>
+        </div>
+
+<div class="col-lg-4 col-sm-6 mb-4">
+        <div  class="px-4 py-5 bg-white shadow text-center d-block match-height">
+        <i class="ti-credit-card icon text-primary d-block mb-4"></i>
+        <h3 class="mb-3 mt-0">Contribute!</h3>
+        <ul>
+            <li><a href="./contribute!">Contibute</a></li>
+            <li style="visibility: hidden;"><a href="./contribute!">Contibute</a></li>
+            <li style="visibility: hidden;"><a href="./contribute!">Contibute</a></li>
+           
+        </ul>
+    </div>
+        </div>
+
+</div>
+</div>
+</section>
+<section class="pt-20 section">
+    <div class=container>
+    <div class="row justify-content-center">
+    <div class="col-12 text-center">
+    <h2 class=section-title>Employee Directory Modern </h2>
+    </div>
+    
+    
+    <div class="col-lg-4 col-sm-6 mb-4">
+        <div  class="px-4 py-5 bg-white shadow text-center d-block match-height">
+        <i class="ti-panel icon text-primary d-block mb-4"></i>
+        <h3 class="mb-3 mt-0">Getting Started</h3>
+        <ul>
+            <li><a href="./Getting-started_/installation/">Installing</a></li>
+            <li><a href="./Getting-started_/Upgrading/">Upgarding</a></li>
+            <li><a href="./Getting-started_/FAQ/">FAQ</a></li>
+        </ul>
+    </div>
+        </div>
+    
+        <div class="col-lg-4 col-sm-6 mb-4">
+            <div  class="px-4 py-5 bg-white shadow text-center d-block match-height">
+            <i class="ti-credit-card icon text-primary d-block mb-4"></i>
+            <h3 class="mb-3 mt-0">Guides</h3>
+            <ul>
+                <li><a href="./Guide_/user_plus/">User Guide</a></li>
+                <li><a href="./Guide_/Guide_plus/">Admin Guide</a></li>
+                <li><a href="./Getting-started_/FAQ/">FAQ</a></li>
+    
+            </ul>
+        </div>
+            </div>
+    
+    <div class="col-lg-4 col-sm-6 mb-4">
+            <div  class="px-4 py-5 bg-white shadow text-center d-block match-height">
+            <i class="ti-credit-card icon text-primary d-block mb-4"></i>
+            <h3 class="mb-3 mt-0">Contribute!</h3>
+            <ul>
+                <li><a href="./contribute!">Contibute</a></li>
+                <li style="visibility: hidden;"><a href="./contribute!">Contibute</a></li>
+                <li style="visibility: hidden;"><a href="./contribute!">Contibute</a></li>
+            </ul>
+        </div>
+            <!-- </div> -->
+    
+    </div>
+    </div>
+    </section>
+<section>
+<div class=container>
+<div class=row>
+<div class=col-12>
+<div class="section px-3 bg-white shadow text-center">
+<h2 class=mb-4>Didn&rsquo;t find an answer to your question?</h2>
+<!-- <p class=mb-4>Musce libero nunc, dignissim quis turpis quis, semper vehicula dolor. Suspendisse tincidunt consequat quam.</p> -->
+<a href=/hr365docs/My-project.git/contact class="btn btn-primary">contact us</a>
+</div>
+</div>
+</div>
+</div>
+</section>
+<footer class="section pb-4">
+<div class=container>
+<div class="row align-items-center">
+<div class="col-md-8 text-md-left text-center">
+<p class="mb-md-0 mb-4">© 2022- <a href="https://www.hr365.us/">HR365</a>.&nbsp;<a href="https://2020.hr365.us/wp-content/uploads/2020/01/HR365-SLA.pdf">SLA</a>.&nbsp;<a href="https://www.hr365.us/terms-and-conditions/">T&amp;C</a>.&nbsp; <a href="https://www.hr365.us/end-user-license-agreement-eula/">EULA</a>.&nbsp;<a href="https://www.hr365.us/privacy/">Privacy Policy</a>.&nbsp;  <a href="https://www.cubiclogics.com" target="_blank" rel="noopener noreferrer">Cubic Logics</a>.&nbsp;</a></p>
+</div>
+<div class="col-md-4 text-md-right text-center">
+    <ul class=list-inline>
+        <li class=list-inline-item><a class="text-color d-inline-block p-2" href="https://www.facebook.com/hr365apps/" aria-label=Facebook><i class=ti-facebook></i></a></li>
+        <li class=list-inline-item><a class="text-color d-inline-block p-2" href="https://twitter.com/HR365_HRMS" aria-label=Twitter><i class=ti-twitter-alt></i></a></li>
+        <!-- <li class=list-inline-item><a class="text-color d-inline-block p-2" href=# aria-label=Github><i class=ti-github></i></a></li> -->
+        <li class=list-inline-item><a class="text-color d-inline-block p-2" href="https://www.linkedin.com/company/cubic-logics-india-pvt-ltd"aria-label=Linkedin><i class=ti-linkedin></i></a></li>
+        </ul>
+</div>
+</div>
+</div>
+</footer>
+<script src="../js/script.min.js"></script>
+</body>
+</html>
