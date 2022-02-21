@@ -6,8 +6,4 @@ description: "Employee directory"
 type : "docs"
 weight: "1"
 ---
-{{ define "main" }}
 
-{{ partial ".layout" }}
-
-{{ end }}
