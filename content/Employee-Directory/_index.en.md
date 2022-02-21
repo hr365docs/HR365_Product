@@ -8,6 +8,6 @@ weight: "1"
 ---
 {{ define "main" }}
 
-{{ partial "default.html" . }}
+{{ partial ".layout" }}
 
 {{ end }}
