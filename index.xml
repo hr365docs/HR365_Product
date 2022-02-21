@@ -5,4 +5,13 @@
 &amp;lt;link rel=&amp;quot;icon&amp;quot; href=&amp;quot;https://hr365docs.github.io/HR365_Product/images/favicon.png&amp;quot; type=&amp;quot;image/x-icon&amp;quot; /&amp;gt;{=html}
 &amp;lt;link href=&amp;quot;https://fonts.googleapis.com/css?family=Lato:300,400,700&amp;amp;display=swap&amp;quot; rel=&amp;quot;stylesheet&amp;quot; /&amp;gt;{=html}
 &amp;lt;script src=&amp;quot;https://cdnjs.cloudflare.com/ajax/libs/pdf.js/2.9.359/pdf.min.js&amp;quot;&amp;gt;&amp;lt;/script&amp;gt; &amp;lt;script src=&amp;quot;https://cdnjs.cloudflare.com/ajax/libs/html2pdf.js/0.9.3/html2pdf.bundle.js&amp;quot;&amp;gt;&amp;lt;/script&amp;gt; &amp;lt;style&amp;gt; :root{ --primary-color:#5637da; --body-color:#f9f9f9; --text-color:#636363; --text-color-dark:#242738; --white-color:#ffffff; --light-color:#f8f9fa; --font-family:Lato; } &amp;lt;/style&amp;gt; &amp;lt;link href=&amp;quot;https://hr365docs.github.io/HR365_Product/css/style.min.css&amp;quot; rel=&amp;quot;stylesheet&amp;quot; media=&amp;quot;screen&amp;quot; /&amp;gt;{=html}
-&amp;lt;script src=&amp;quot;https://hr365docs.github.io/HR365_Product/plugins/jquery/jquery-1.12.4.js&amp;quot;&amp;gt;&amp;lt;/script&amp;gt; &amp;lt;script src=&amp;quot;https://hr365docs.github.io/HR365_Product/plugins/jquery/jquery-ui.js&amp;quot;&amp;gt;&amp;lt;/script&amp;gt; &amp;lt;script src=&amp;quot;https://hr365docs.</description></item></channel></rss>
+&amp;lt;script src=&amp;quot;https://hr365docs.github.io/HR365_Product/plugins/jquery/jquery-1.12.4.js&amp;quot;&amp;gt;&amp;lt;/script&amp;gt; &amp;lt;script src=&amp;quot;https://hr365docs.github.io/HR365_Product/plugins/jquery/jquery-ui.js&amp;quot;&amp;gt;&amp;lt;/script&amp;gt; &amp;lt;script src=&amp;quot;https://hr365docs.</description></item><item><title/><link>https://hr365docs.github.io/HR365_Product/employee-on-boarding/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://hr365docs.github.io/HR365_Product/employee-on-boarding/</guid><description>################################# Default configuration ###################
+provide your domain here baseURL = &amp;ldquo;https://hr365docs.github.io/HR365_Product/&amp;quot;
+theme theme = &amp;ldquo;dot-hugo&amp;rdquo;
+site title title = &amp;ldquo;HR365&amp;rdquo;
+disable language disableLanguages = []
+google analytics googleAnalytics = &amp;quot;&amp;rdquo; # paste your analytics ID here. (Ex: UA-123-45)
+unsafe html [markup.goldmark.renderer] unsafe = true
+############################# Default Parameters ########################## [params]
+logo is for all page logo = &amp;ldquo;images/logo.png&amp;rdquo;
+logo white is for homepage logo, you can use colorful logo too&amp;hellip; logo_white = &amp;quot;&amp;quot;</description></item></channel></rss>
