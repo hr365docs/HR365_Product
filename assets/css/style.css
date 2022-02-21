@@ -892,3 +892,7 @@ pre code::-webkit-scrollbar-thumb {
 
 .overlay::before {
   background: linear-gradient( 260deg , #5637da 0%, #9c3dc3 69%) !important;}
+
+.ptb-20.section {
+    padding: 20px 0px;
+}
