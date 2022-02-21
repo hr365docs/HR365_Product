@@ -92,7 +92,7 @@ $fileUniqueID := "" }} {{ with .File }}{{ $fileUniqueID = .UniqueID }}{{ end }}
 $currentNodeFileUniqueID = .UniqueID }}{{ end }}
 <li
   data-nav-id="{{.Permalink}}"
-  title="{{.Title}{.Site}}"
+  title="{{.Title}{.Employee-Directory}}"
   class="sidelist
   {{if eq $fileUniqueID $currentNodeFileUniqueID}}active{{end}}"
 >
