@@ -121,7 +121,7 @@ weight = 1
   [[Languages.en.menu.main]]
   
   name = "Timesheet"
-  url = "features/"
+  url = "timesheet/"
   weight = 6
 
   [[Languages.en.menu.main]]
