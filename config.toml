@@ -103,19 +103,19 @@ weight = 1
 [[Languages.en.menu.main]]
  
   name = "Asset Mangement"
-  url = "Asset_Mangement/"
+  url = "asset_mangement/"
   weight = 3
 
   [[Languages.en.menu.main]]
  
   name = "HR365 Helpdesk"
-  url = "features/"
+  url = "helpdesk/"
   weight = 4
 
   [[Languages.en.menu.main]]
   
   name = "Time Off Manager"
-  url = "features/"
+  url = "time-off-manager/"
   weight = 5
 
   [[Languages.en.menu.main]]
@@ -126,8 +126,8 @@ weight = 1
 
   [[Languages.en.menu.main]]
   
-  name = "Employee On-boarding "
-  url = "installation/"
+  name = "Employee On-boarding"
+  url = "employee-on-boarding/"
   weight = 7
 
   
